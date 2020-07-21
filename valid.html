@@ -1,0 +1,14 @@
+
+
+
+BMI is {{b}} and you are:
+
+{% if b < 18.5 %}
+Underweight
+{% elif b >= 18.5 and b < 24.9 %} 
+Normal weight
+{% elif b >= 25 and b < 29.9 %}
+Overweight
+{% elif b >= 30 %} 
+Obesity 
+{% endif %}

@@ -1,0 +1,23 @@
+
+
+<html>
+<body>
+
+    <form method="get" action="/bmi/check">
+    
+    {{form.weight.errors}}
+    <label for="{{form.weight.id_for_label}}"> Enter weight:</label>
+    {{form.weight}}
+
+    <br>
+
+    {{form.weight.errors}}
+    <label for="{{form.height.id_for_label}}">Enter height:</label>
+    {{form.height}}
+
+    <br>
+  
+    <input type="submit" value="calculate bmi"> 
+    </form>
+</body>
+</html>
